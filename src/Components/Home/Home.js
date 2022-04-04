@@ -5,6 +5,7 @@ import useReviews from '../../Hooks/useReviews';
 import ReviewItem from '../ReviewItem/ReviewItem';
 const Home = () => {
     const [reviews, setReviews] = useReviews()
+   
     return (
         <div className='home-container'>
             <div className='container'>
@@ -19,9 +20,10 @@ const Home = () => {
             
            <div className='product-container'>
               {
-                  reviews.map(review => <ReviewItem key={review.id}
+                  reviews.slice(0,3).map(review => <ReviewItem key={review.id}
                     review={review}
                   ></ReviewItem>)
+                  
               }
            </div>
         </div>
