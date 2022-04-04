@@ -1,0 +1,16 @@
+.header{
+    color: rgb(70, 67, 67);
+    margin: 30px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+.header:hover{
+    color: orangered;
+   
+    
+}
