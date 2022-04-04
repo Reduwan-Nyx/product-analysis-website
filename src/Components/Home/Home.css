@@ -1,4 +1,4 @@
-.home-container{
+.container{
     display: grid;
     grid-template-columns: 3fr 2fr;
 }
@@ -24,3 +24,9 @@
     margin-top: 50px;
     margin-left: 20px;
 }
+
+/* .product-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+} */
