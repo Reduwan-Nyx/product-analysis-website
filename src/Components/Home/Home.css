@@ -24,9 +24,19 @@
     margin-top: 50px;
     margin-left: 20px;
 }
+.btn-container{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(68, 37, 180);
+    margin-bottom: 100px;
+    color: white;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
 
-/* .product-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-} */

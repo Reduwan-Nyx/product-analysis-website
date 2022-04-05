@@ -3,6 +3,7 @@ import './Home.css'
 import flower from '../image/flower.jpg'
 import useReviews from '../../Hooks/useReviews';
 import ReviewItem from '../ReviewItem/ReviewItem';
+import { Link } from 'react-router-dom';
 const Home = () => {
     const [reviews, setReviews] = useReviews()
    
@@ -26,6 +27,7 @@ const Home = () => {
                   
               }
            </div>
+           <Link to="/reviews"><button className='btn-container'>See all review</button></Link>
         </div>
     );
 };
