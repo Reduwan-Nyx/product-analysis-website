@@ -16,5 +16,11 @@ nav{
 .header:hover{
     color: orangered;
    
-    
 }
+
+@media only screen and (max-width: 600px) {
+    .header-container{
+        margin-left: -150px;
+       
+    }
+  }
